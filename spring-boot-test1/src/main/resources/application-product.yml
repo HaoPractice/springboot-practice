@@ -1,0 +1,8 @@
+server:
+    port: 8080
+    context-path: /what
+base:
+    address: 180.168.1.47 
+    username: root
+    password: hao1992
+    content: "${base.address}"

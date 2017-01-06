@@ -1,0 +1,8 @@
+server:
+    port: 8081
+    context-path: /whataaa
+base:
+    address: 192.168.1.47 
+    username: hao.fu
+    password: 123456
+    content: "${base.address}"
