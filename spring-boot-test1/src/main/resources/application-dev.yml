@@ -1,14 +1,27 @@
 server:
   port: 8081
   context-path: /whataaa
-base:
-  address: localhost
-  username: root
-  password: fhfh
-  content: ${base.address}
+config:
+  baseDb:
+    url: jdbc:mysql:///test
+    username: root1
+    password: 1234
 spring:
-  datasource:
-    url: jdbc:mysql:///
-    username: root
-    password: fhfh
-    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    view:
+      prefix: /pages/jsp/
+      suffix: .jsp
+    date-format: yyyy-MM-dd
+    throw-exception-if-no-handler-found: true
+#  jta:
+#    transaction-manager-id: transactionManager 
+  resources:
+    static-locations:
+    - /pages/static
+    - /pages/css
+    - /pages/jsp/
+#mybatis:
+#  mapper-locations:
+#  - classpath:com\sf\mapper\UserMapper.xml
+#  type-aliases-package: com.sf.model
+# 这里甚至不需要指定mapper文件。

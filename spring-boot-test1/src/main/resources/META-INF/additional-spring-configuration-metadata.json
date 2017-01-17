@@ -18,5 +18,40 @@
     "name": "base.content",
     "type": "java.lang.String",
     "description": "A description for 'base.content'"
+  },
+  {
+    "name": "config.address",
+    "type": "java.lang.String",
+    "description": "A description for 'config.address'"
+  },
+  {
+    "name": "config.password",
+    "type": "java.lang.String",
+    "description": "A description for 'config.password'"
+  },
+  {
+    "name": "config.username",
+    "type": "java.lang.String",
+    "description": "A description for 'config.username'"
+  },
+  {
+    "name": "config.content",
+    "type": "java.lang.String",
+    "description": "A description for 'config.content'"
+  },
+  {
+    "name": "config.base-db.url",
+    "type": "java.lang.String",
+    "description": "A description for 'config.base-db.url'"
+  },
+  {
+    "name": "config.base-db.username",
+    "type": "java.lang.String",
+    "description": "A description for 'config.base-db.username'"
+  },
+  {
+    "name": "config.base-db.password",
+    "type": "java.lang.String",
+    "description": "A description for 'config.base-db.password'"
   }
 ]}

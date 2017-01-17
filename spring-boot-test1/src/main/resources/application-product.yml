@@ -2,7 +2,12 @@ server:
     port: 8080
     context-path: /what
 base:
-    address: 180.168.1.47 
+    address: 111.111.111.11
     username: root
-    password: hao1992
+    password: rrrr
     content: "${base.address}"
+config:
+  baseDb:
+    url: jdbc:mysql:///test2
+    username: root2
+    password: 2345

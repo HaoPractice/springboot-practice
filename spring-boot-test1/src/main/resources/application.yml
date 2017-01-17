@@ -1,4 +1,12 @@
 spring:
   profiles:
     active: dev
-    
+  datasource:
+    url: ${config.baseDb.url}
+    username: ${config.baseDb.username}
+    password: ${config.baseDb.password}
+    tomcat:
+      max-wait: 10000
+      max-active: 50
+      test-while-idle: true
+      test-on-borrow: true
