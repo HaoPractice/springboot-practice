@@ -1,4 +1,4 @@
-package com.fh;
+package com.sf;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -33,7 +33,4 @@ public class RequestParameterController {
     String getUserProfile(@PathVariable(name="id") String string,@RequestParam(defaultValue="default") String profile) {
       return "Id" + string +"profile data is "+ profile;
     }
-    
-    
-    
 }
